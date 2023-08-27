@@ -45,7 +45,76 @@
                     </li>
                 </ul>
             </address>
-        </div>
+
+            <button class="mobile-menu-open js-open-menu" type="button">
+                <svg class="mobile-menu-open-icon" aria-label="mobile-menu-open" width="32" height="22"
+                    stroke="var(--primary-color)">
+                    <use href="./images/icons.svg#icon-mobile-menu"></use>
+                </svg>
+            </button>
+
+            <div class="mobile-menu-container js-menu-container">
+                <div class="mobile-menu-cover">
+                    <button class="mobile-menu-close js-close-menu" type="button">
+                        <svg class="mobile-menu-close-icon" aria-label="mobile-menu-close" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-icon"></use>
+                        </svg>
+                    </button>
+                    <ul class="mobile-menu-list list">
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-nav current link" href="./index.html">Studio</a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-nav link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-nav link" href="">Contacts</a>
+                        </li>
+                    </ul>
+                    <address class="mobile-menu-contacts">
+                        <ul class="mobile-menu-contacts-list list">
+                            <li class="mobile-menu-contacts-item">
+                                <a class="mobile-menu-contacts-tel link" href="tel:+110001111111">+11 (000)
+                                    111-11-11</a>
+                            </li>
+                            <li class="mobile-menu-contacts-item">
+                                <a class="mobile-menu-contacts-mail link"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                    </address>
+                    <ul class="mobile-menu-social-list list">
+                        <li class="mobile-menu-social-item">
+                            <a class="mobile-menu-social-link link" href="">
+                                <svg class="mobile-menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-social-item">
+                            <a class="mobile-menu-social-link link" href="">
+                                <svg class="mobile-menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-social-item">
+                            <a class="mobile-menu-social-link link" href="">
+                                <svg class="mobile-menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu__social-item">
+                            <a class="mobile-menu-social-link link" href="">
+                                <svg class="mobile-menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
     </header>
     <!--HERO-->
     <main>
@@ -113,15 +182,16 @@
                 <h2 class="preview-title">What are we doing</h2>
                 <ul class="preview-list list">
                     <li class="preview-item">
-                        <img src="./images/what-are-we-doing/img1.jpg" alt="Computer interface" width="360"
-                            height="300" />
+                        <img class="preview-image" srcset="./images/preview/preview-pic-1-2x.jpeg 2x"
+                            src="./images/preview/preview-pic-1-1x.jpeg" alt="Computer interface" width="360" />
                     </li>
                     <li class="preview-item">
-                        <img src="./images/what-are-we-doing/img2.jpg" alt="Apps interface" width="360" height="300" />
+                        <img class="preview-image" srcset="./images/preview/preview-pic-2-2x.jpeg 2x"
+                            src="./images/preview/preview-pic-2-1x.jpeg" alt="Apps interface" width="360" />
                     </li>
                     <li class="preview-item">
-                        <img src="./images/what-are-we-doing/img3.jpg" alt="Webpage interface" width="360"
-                            height="300" />
+                        <img class="preview-image" srcset="./images/preview/preview-pic-3-2x.jpeg 2x"
+                            src="./images/preview/preview-pic-3-1x.jpeg" alt="Webpage interface" width="360" />
                     </li>
                 </ul>
             </div>
@@ -132,7 +202,8 @@
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list list">
                     <li class="team-item">
-                        <img src="./images/our-team/img-mark.jpg" alt="Mark Guerrero" width="264" height="260" />
+                        <img class="team-image" srcset="./images/our-team/team-mark-2x.jpeg 2x"
+                            src="./images/our-team/team-mark-1x.jpeg" alt="Mark Guerrero" width="264" height="260" />
                         <div class="team-cover">
                             <h3 class="team-member">Mark Guerrero</h3>
                             <p class="team-occupation">Product Designer</p>
@@ -169,7 +240,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/our-team/img-tom.jpg" alt="Tom Ford" width="264" height="260" />
+                        <img class="team-image" srcset="./images/our-team/team-tom-2x.jpeg 2x"
+                            src="./images/our-team/team-tom-1x.jpeg" alt="Tom Ford" width="264" height="260" />
                         <div class="team-cover">
                             <h3 class="team-member">Tom Ford</h3>
                             <p class="team-occupation">Frontend Developer</p>
@@ -206,7 +278,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/our-team/img-camila.jpg" alt="Camila Garcia" width="264" height="260" />
+                        <img class="team__image" srcset="./images/our-team/team-camila-2x.jpeg 2x"
+                            src="./images/our-team/team-camila-1x.jpeg" alt="Camila Garcia" width="264" height="260" />
                         <div class="team-cover">
                             <h3 class="team-member">Camila Garcia</h3>
                             <p class="team-occupation">Marketing</p>
@@ -243,7 +316,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/our-team/img-daniel.jpg" alt="Daniel Wilson" width="264" height="260" />
+                        <img class="team__image" srcset="./images/our-team/team-daniel-2x.jpeg 2x"
+                            src="./images/our-team/team-daniel-1x.jpeg" alt="Daniel Wilson" width="264" height="260" />
                         <div class="team-cover">
                             <h3 class="team-member">Daniel Wilson</h3>
                             <p class="team-occupation">UI Designer</p>
@@ -286,7 +360,7 @@
         <!--CUSTOMERS SECTION-->
 
         <section class="customers">
-            <div class="container">
+            <div class="customers-container">
                 <h2 class="customers-title">Customers</h2>
                 <ul class="customers-list list">
                     <li class="customers-item">
@@ -390,7 +464,7 @@
                     </button>
                 </form>
             </div>
-
+        </div>
         </div>
     </footer>
 
