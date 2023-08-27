@@ -207,7 +207,10 @@ button {
 
 .header-contacts-list {
   display: flex;
-  gap: 40px;
+  gap: 12px;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .header-contacts {
@@ -227,12 +230,6 @@ button {
     padding-bottom: 24px;
     display: flex;
     gap: 40px;
-  }
-}
-
-@media screen and (max-width: 1157px) {
-  .header-contacts-item:first-child {
-    margin-bottom: 12px;
   }
 }
 
@@ -907,10 +904,6 @@ button {
 .footer-media-link:hover,
 .footer-media-link:focus {
   background-color: var(--color-green);
-}
-
-.footer-subscribe-cover {
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
