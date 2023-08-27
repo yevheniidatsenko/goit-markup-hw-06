@@ -210,7 +210,7 @@ button {
   gap: 40px;
 }
 
-.heder .header-contacts {
+.header-contacts {
   font-style: normal;
   margin-left: auto;
 }
@@ -222,7 +222,7 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-  .header-contacts__list {
+  .header-contacts-list {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
@@ -910,7 +910,7 @@ button {
 }
 
 .footer-subscribe-cover {
-  margin-left: 80px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
