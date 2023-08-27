@@ -224,12 +224,22 @@ button {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .header-contacts-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+  }
+}
+
 @media screen and (min-width: 1158px) {
   .header-contacts-list {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
     gap: 40px;
+    flex-direction: row;
   }
 }
 
